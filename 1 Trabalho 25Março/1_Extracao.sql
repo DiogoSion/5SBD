@@ -1,8 +1,5 @@
-BULK INSERT StagingPedidos
+COPY StagingPedidos
 FROM 'C:\Users\diogo\Desktop\pedidos.txt'
-WITH (
-    FIELDTERMINATOR = ';',
-    ROWTERMINATOR = '\n',
-    FIRSTROW = 2,
-    CODEPAGE = 'ACP'
-);
+DELIMITER ';'
+CSV HEADER
+ENCODING 'WIN1252';
