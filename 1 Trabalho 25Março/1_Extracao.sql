@@ -1,5 +1,5 @@
 COPY StagingPedidos
-FROM 'C:\Users\diogo\Desktop\pedidos.txt'
+FROM 'C:\5sdb\pedidos.txt'
 DELIMITER ';'
 CSV HEADER
 ENCODING 'WIN1252';
