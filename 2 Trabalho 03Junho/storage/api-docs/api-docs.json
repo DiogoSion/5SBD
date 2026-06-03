@@ -1,0 +1,48 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Carga de Pedidos",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/importacao/marketplace": {
+            "post": {
+                "tags": [
+                    "Importação"
+                ],
+                "summary": "Importar arquivo CSV de pedidos",
+                "operationId": "46b1dcc24afd1521c1a1cc49cf21fe6d",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "required": [
+                                    "arquivo"
+                                ],
+                                "properties": {
+                                    "arquivo": {
+                                        "type": "string",
+                                        "format": "binary"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "202": {
+                        "description": "Processamento iniciado na fila."
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Importação",
+            "description": "Importação"
+        }
+    ]
+}
