@@ -1,0 +1,17 @@
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Infrastructure.deps.json
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Infrastructure.dll
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Infrastructure.pdb
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Application.dll
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Domain.dll
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Application.pdb
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\bin\Debug\net10.0\Viacao.Domain.pdb
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.csproj.AssemblyReference.cache
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.AssemblyInfoInputs.cache
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.AssemblyInfo.cs
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.csproj.CoreCompileInputs.cache
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.I.AFAA8472.Up2Date
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.dll
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\refint\Viacao.Infrastructure.dll
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\Viacao.Infrastructure.pdb
+C:\5sbd\av2\viacao_api\Viacao.Infrastructure\obj\Debug\net10.0\ref\Viacao.Infrastructure.dll

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Viacao.Api/Viacao.Api.csproj" />
+  <Project Path="Viacao.Application/Viacao.Application.csproj" />
+  <Project Path="Viacao.Domain/Viacao.Domain.csproj" />
+  <Project Path="Viacao.Infrastructure/Viacao.Infrastructure.csproj" />
+</Solution>

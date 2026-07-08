@@ -1,0 +1,344 @@
+[
+  {
+    "ContainingType": "Viacao.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Api.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.AuthController",
+    "Method": "Registrar",
+    "RelativePath": "api/v1/Auth/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Usuario.CriarUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.MotoristasController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/v1/Motoristas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Motorista.CriarMotoristaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.MotoristasController",
+    "Method": "FinalizarJornada",
+    "RelativePath": "api/v1/Motoristas/{id}/jornadas/finalizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Motorista.FinalizarJornadaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.MotoristasController",
+    "Method": "IniciarJornada",
+    "RelativePath": "api/v1/Motoristas/{id}/jornadas/iniciar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.MotoristasController",
+    "Method": "ObterDisponiveis",
+    "RelativePath": "api/v1/Motoristas/disponiveis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.OnibusController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/v1/Onibus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.OnibusController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/v1/Onibus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Onibus.CriarOnibusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.OnibusController",
+    "Method": "AtualizarQuilometragem",
+    "RelativePath": "api/v1/Onibus/{id}/quilometragem",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Onibus.AtualizarKmOnibusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.OnibusController",
+    "Method": "RegistrarRevisao",
+    "RelativePath": "api/v1/Onibus/{id}/revisoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.PassagensController",
+    "Method": "ComprarPassagem",
+    "RelativePath": "api/v1/Passagens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Passagem.ComprarPassagemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.PassagensController",
+    "Method": "ProcessarPagamento",
+    "RelativePath": "api/v1/Passagens/{id}/pagamentos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Pagamento.RealizarPagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.PassagensController",
+    "Method": "CotarPassagem",
+    "RelativePath": "api/v1/Passagens/cotacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ViagemId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParadaOrigemId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParadaDestinoId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataCompra",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.RotasController",
+    "Method": "ObterTodas",
+    "RelativePath": "api/v1/Rotas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.RotasController",
+    "Method": "CadastrarRota",
+    "RelativePath": "api/v1/Rotas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Rota.CriarRotaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.RotasController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/v1/Rotas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.RotasController",
+    "Method": "AdicionarParada",
+    "RelativePath": "api/v1/Rotas/{id}/paradas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Rota.AdicionarParadaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.ViagensController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/v1/Viagens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Viagem.CriarViagemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.ViagensController",
+    "Method": "AlocarMotorista",
+    "RelativePath": "api/v1/Viagens/{id}/alocar-motorista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Viacao.Application.DTOs.Viagem.AlocarMotoristaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Viacao.Api.Controllers.ViagensController",
+    "Method": "ObterManifesto",
+    "RelativePath": "api/v1/Viagens/{id}/manifesto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

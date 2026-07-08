@@ -1,0 +1,15 @@
+C:\5sbd\av2\viacao_api\Viacao.Application\bin\Debug\net10.0\Viacao.Application.deps.json
+C:\5sbd\av2\viacao_api\Viacao.Application\bin\Debug\net10.0\Viacao.Application.dll
+C:\5sbd\av2\viacao_api\Viacao.Application\bin\Debug\net10.0\Viacao.Application.pdb
+C:\5sbd\av2\viacao_api\Viacao.Application\bin\Debug\net10.0\Viacao.Domain.dll
+C:\5sbd\av2\viacao_api\Viacao.Application\bin\Debug\net10.0\Viacao.Domain.pdb
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.csproj.AssemblyReference.cache
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.AssemblyInfoInputs.cache
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.AssemblyInfo.cs
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.csproj.CoreCompileInputs.cache
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.A.51E678AF.Up2Date
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.dll
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\refint\Viacao.Application.dll
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\Viacao.Application.pdb
+C:\5sbd\av2\viacao_api\Viacao.Application\obj\Debug\net10.0\ref\Viacao.Application.dll
