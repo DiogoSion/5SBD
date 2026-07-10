@@ -19,6 +19,11 @@ public class RotaRepository : IRotaRepository
         await _context.Rotas.AddAsync(rota);
     }
 
+    public void AdicionarParada(Parada parada)
+    {
+        _context.Set<Parada>().Add(parada);
+    }
+
     public async Task<Rota?> ObterPorIdAsync(Guid id)
     {
         return await _context.Rotas

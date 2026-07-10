@@ -34,6 +34,7 @@ public class RotaService : IRotaService
         var parada = new Parada(dto.Cidade, dto.Ordem, dto.PermiteVenda, dto.PontoTrocaMotorista, dto.QuilometroTrecho);
         
         rota.AdicionarParada(parada);
+        _rotaRepository.AdicionarParada(parada);
 
         await _unitOfWork.CommitAsync();
     }
